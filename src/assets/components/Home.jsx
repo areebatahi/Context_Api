@@ -7,26 +7,34 @@ const Home = () => {
 
   return (
     <>
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img src={state.home.img1} className="d-block w-100" alt="..."></img>
-          <div className="carousel-caption d-none d-md-block">
-            <h5 className="container-fluid carousel-text">{state.home.webName}</h5>
-          </div>
+      <h1 className='m-3'>all user data</h1>
+
+      <div className="border p-3 col-3 m-4">
+        <div className="card-body">
+          <h5 className="card-title">User Name: <span className='gray'>ngray123</span> </h5>
+          <h5 className="card-title">Email Adress: <span className='gray'>gray@gmail.com</span></h5>
+          <h5 className="card-title">User ID: <span className='gray'>fhkjgGFJg90967</span></h5>
         </div>
       </div>
-      <div className="row">
-        <div className="col col-lg-6 col-md-6 col-sm-10 col-image">
-          <img src={state.home.img2} alt="" className="image-fluid"></img>
+      <div className="border p-3 col-3 m-4">
+        <div className="card-body">
+          <h5 className="card-title">User Name: <span className='gray'>ngray123</span> </h5>
+          <h5 className="card-title">Email Adress: <span className='gray'>gray@gmail.com</span></h5>
+          <h5 className="card-title">User ID: <span className='gray'>fhkjgGFJg90967</span></h5>
         </div>
-        <div className="col col-lg-5 col-md-6 col-sm-10">
-          <div className="card">
-            <h1>{state.home.catering}</h1>
-            <br></br>
-            <h6>{state.home.since}</h6>
-            <p>{state.home.para1}</p>
-            <p className="gray">{state.home.para2}</p>
-          </div>
+      </div>
+      <div className="border p-3 col-3 m-4">
+        <div className="card-body">
+          <h5 className="card-title">User Name: <span className='gray'>ngray123</span> </h5>
+          <h5 className="card-title">Email Adress: <span className='gray'>gray@gmail.com</span></h5>
+          <h5 className="card-title">User ID: <span className='gray'>fhkjgGFJg90967</span></h5>
+        </div>
+      </div>
+      <div className="border p-3 col-3 m-4">
+        <div className="card-body">
+          <h5 className="card-title">User Name: <span className='gray'>ngray123</span> </h5>
+          <h5 className="card-title">Email Adress: <span className='gray'>gray@gmail.com</span></h5>
+          <h5 className="card-title">User ID: <span className='gray'>fhkjgGFJg90967</span></h5>
         </div>
       </div>
     </>
